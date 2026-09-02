@@ -18,7 +18,26 @@ from sklearn.preprocessing import StandardScaler
 BASE_DIR = Path(__file__).resolve().parent
 LIBRARY_PATH = BASE_DIR / "reference_library.json"
 ALIASES_PATH = BASE_DIR / "ingredient_aliases.json"
-RUNS_DIR = BASE_DIR / "runs"
+OUTPUTS_DIR = BASE_DIR / "outputs"
+ENV_PATH = BASE_DIR / ".env"
+
+
+def _load_dotenv(path: Path = ENV_PATH) -> None:
+    """Load KEY=VALUE pairs from .env into the process environment if unset."""
+    if not path.is_file():
+        return
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, value = line.partition("=")
+        key = key.strip()
+        value = value.strip().strip("'").strip('"')
+        if key and key not in os.environ:
+            os.environ[key] = value
+
+
+_load_dotenv()
 
 MODEL = os.getenv("RECIPE_AGENT_MODEL", "gpt-5.6-sol")
 N_REPLICATES = 3
@@ -56,7 +75,7 @@ class RecipeReconstructionAgent:
         self.client = OpenAI() if create_client else None
         self.library = json.loads(LIBRARY_PATH.read_text(encoding="utf-8"))
         self.aliases = json.loads(ALIASES_PATH.read_text(encoding="utf-8"))
-        RUNS_DIR.mkdir(exist_ok=True)
+        OUTPUTS_DIR.mkdir(exist_ok=True)
 
         self._names = [r["recipe_name"] for r in self.library]
         self._tfidf = TfidfVectorizer(
@@ -505,7 +524,7 @@ RETRIEVED REFERENCE RECIPES
         if write_audit:
             timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
             safe_name = re.sub(r"[^A-Za-z0-9_-]+", "_", target.recipe_name).strip("_")[:80]
-            audit_path = RUNS_DIR / f"{timestamp}_{safe_name}.json"
+            audit_path = OUTPUTS_DIR / f"{timestamp}_{safe_name}.json"
             audit_path.write_text(
                 json.dumps(result, indent=2, ensure_ascii=False),
                 encoding="utf-8",

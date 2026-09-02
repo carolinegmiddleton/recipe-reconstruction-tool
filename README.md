@@ -29,7 +29,7 @@ The research details are saved automatically and are available under **Research 
 6. The three proportions are averaged.
 7. The ensemble is normalized to exactly 100%.
 8. Stability and CORE status are calculated.
-9. A JSON audit file is automatically saved in `runs/`.
+9. A JSON audit file is automatically saved in `outputs/`.
 
 The audit contains:
 - date/time
