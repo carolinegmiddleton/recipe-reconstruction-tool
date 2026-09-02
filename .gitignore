@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Secrets (keep .env.example)
+.env
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

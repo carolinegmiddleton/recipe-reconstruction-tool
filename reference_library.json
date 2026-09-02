@@ -1,0 +1,1418 @@
+[
+  {
+    "recipe_id": "GS001",
+    "recipe_name": "Beef Diced Mediterranean",
+    "default_portion": "#10 Scoop",
+    "calories_kcal": 272.0,
+    "protein_g": 15.92,
+    "carbohydrate_g": 0.41,
+    "fat_g": 18.72,
+    "sodium_mg": 82.0,
+    "ingredients": [
+      {
+        "ingredient": "Beef, diced",
+        "percentage": 85.40490285721849
+      },
+      {
+        "ingredient": "Lemon juice",
+        "percentage": 5.457878247748028
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 4.536480716199257
+      },
+      {
+        "ingredient": "Canola oil",
+        "percentage": 4.393223430424544
+      },
+      {
+        "ingredient": "Garlic powder",
+        "percentage": 0.1794722148408042
+      },
+      {
+        "ingredient": "Parsley, dried",
+        "percentage": 0.028042533568875656
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS002",
+    "recipe_name": "Beef Meatloaf Caramelized",
+    "default_portion": "1 Slice",
+    "calories_kcal": 136.0,
+    "protein_g": 4.64,
+    "carbohydrate_g": 24.09,
+    "fat_g": 3.02,
+    "sodium_mg": 337.0,
+    "ingredients": [
+      {
+        "ingredient": "Ground beef",
+        "percentage": 51.03500490986767
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 21.794949155625844
+      },
+      {
+        "ingredient": "Tomato soup",
+        "percentage": 18.372601767552364
+      },
+      {
+        "ingredient": "Breadcrumbs",
+        "percentage": 5.475755820917567
+      },
+      {
+        "ingredient": "Egg, whole",
+        "percentage": 2.4973229137865665
+      },
+      {
+        "ingredient": "Canola oil",
+        "percentage": 0.5109504609211457
+      },
+      {
+        "ingredient": "Paprika",
+        "percentage": 0.11047577533430178
+      },
+      {
+        "ingredient": "Oregano, dried",
+        "percentage": 0.09006177337035473
+      },
+      {
+        "ingredient": "Garlic powder",
+        "percentage": 0.057639534957027026
+      },
+      {
+        "ingredient": "Black pepper",
+        "percentage": 0.05523788766715089
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS003",
+    "recipe_name": "Beef Stew",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 304.0,
+    "protein_g": 18.63,
+    "carbohydrate_g": 16.19,
+    "fat_g": 18.54,
+    "sodium_mg": 236.0,
+    "ingredients": [
+      {
+        "ingredient": "Beef, diced",
+        "percentage": 31.115849363505856
+      },
+      {
+        "ingredient": "Beef broth",
+        "percentage": 31.115849363505856
+      },
+      {
+        "ingredient": "Potatoes",
+        "percentage": 11.668443511314695
+      },
+      {
+        "ingredient": "Carrots",
+        "percentage": 7.778962340876464
+      },
+      {
+        "ingredient": "Green peas",
+        "percentage": 5.834221755657348
+      },
+      {
+        "ingredient": "Celery",
+        "percentage": 3.889481170438232
+      },
+      {
+        "ingredient": "Tomato paste",
+        "percentage": 2.2597885600246124
+      },
+      {
+        "ingredient": "Wheat flour",
+        "percentage": 2.0536460579913864
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 1.944740585219116
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 1.84750355595816
+      },
+      {
+        "ingredient": "Worcestershire sauce",
+        "percentage": 0.3847993371286891
+      },
+      {
+        "ingredient": "Salt",
+        "percentage": 0.10399176156028352
+      },
+      {
+        "ingredient": "Thyme, fresh",
+        "percentage": 0.0027226368193067623
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS004",
+    "recipe_name": "Bread Garlic",
+    "default_portion": "1 Slice",
+    "calories_kcal": 142.0,
+    "protein_g": 4.33,
+    "carbohydrate_g": 18.48,
+    "fat_g": 5.44,
+    "sodium_mg": 273.0,
+    "ingredients": [
+      {
+        "ingredient": "Whole-wheat bread",
+        "percentage": 84.52473424601784
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 13.011330618889321
+      },
+      {
+        "ingredient": "Garlic",
+        "percentage": 2.3792147417397618
+      },
+      {
+        "ingredient": "Parsley, dried",
+        "percentage": 0.05321927711786308
+      },
+      {
+        "ingredient": "Black pepper",
+        "percentage": 0.031501116235205726
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS005",
+    "recipe_name": "Chicken Honey Garlic",
+    "default_portion": "1 Each",
+    "calories_kcal": 212.0,
+    "protein_g": 21.74,
+    "carbohydrate_g": 6.22,
+    "fat_g": 10.78,
+    "sodium_mg": 154.0,
+    "ingredients": [
+      {
+        "ingredient": "Chicken thigh",
+        "percentage": 78.4037006546709
+      },
+      {
+        "ingredient": "Lemon juice",
+        "percentage": 13.589974780142954
+      },
+      {
+        "ingredient": "Canola oil",
+        "percentage": 3.9672272531263473
+      },
+      {
+        "ingredient": "Honey",
+        "percentage": 3.5556078246893255
+      },
+      {
+        "ingredient": "Garlic",
+        "percentage": 0.37241757810968673
+      },
+      {
+        "ingredient": "Salt",
+        "percentage": 0.08101715734315992
+      },
+      {
+        "ingredient": "Black pepper",
+        "percentage": 0.030054751917623843
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS006",
+    "recipe_name": "Compote Raspberry",
+    "default_portion": "#8 Scoop",
+    "calories_kcal": 94.0,
+    "protein_g": 1.2,
+    "carbohydrate_g": 21.1,
+    "fat_g": 0.65,
+    "sodium_mg": 1.0,
+    "ingredients": [
+      {
+        "ingredient": "Raspberries",
+        "percentage": 82.28270508964243
+      },
+      {
+        "ingredient": "Water",
+        "percentage": 9.50822369924757
+      },
+      {
+        "ingredient": "White sugar",
+        "percentage": 6.994029932619607
+      },
+      {
+        "ingredient": "Cornstarch",
+        "percentage": 0.6920889750317701
+      },
+      {
+        "ingredient": "Lemon juice",
+        "percentage": 0.5229523034586163
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS007",
+    "recipe_name": "Crisp Peach",
+    "default_portion": "2\" x 2\" Pc",
+    "calories_kcal": 183.0,
+    "protein_g": 1.39,
+    "carbohydrate_g": 32.36,
+    "fat_g": 5.7,
+    "sodium_mg": 53.0,
+    "ingredients": [
+      {
+        "ingredient": "Peaches, canned in juice",
+        "percentage": 57.071924893346846
+      },
+      {
+        "ingredient": "Brown sugar",
+        "percentage": 14.899577192156416
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 7.906839594599094
+      },
+      {
+        "ingredient": "White sugar",
+        "percentage": 7.075016289278563
+      },
+      {
+        "ingredient": "Wheat flour",
+        "percentage": 6.026795268737427
+      },
+      {
+        "ingredient": "Oats",
+        "percentage": 5.78328838919248
+      },
+      {
+        "ingredient": "Lemon juice",
+        "percentage": 1.2365583726891818
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS008",
+    "recipe_name": "Egg Omelet Vegetable Cheese",
+    "default_portion": "4\" x 4\" Pc",
+    "calories_kcal": 233.0,
+    "protein_g": 20.46,
+    "carbohydrate_g": 5.56,
+    "fat_g": 14.1,
+    "sodium_mg": 427.0,
+    "ingredients": [
+      {
+        "ingredient": "Egg, whole",
+        "percentage": 32.813260754176596
+      },
+      {
+        "ingredient": "Cottage cheese",
+        "percentage": 25.829913729316612
+      },
+      {
+        "ingredient": "Spinach",
+        "percentage": 15.803664844703357
+      },
+      {
+        "ingredient": "Water",
+        "percentage": 14.452611494761703
+      },
+      {
+        "ingredient": "Cheddar cheese",
+        "percentage": 5.8326610675288295
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 5.267888109512888
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS009",
+    "recipe_name": "Potato & Egg Salad Dill",
+    "default_portion": "#8 Scoop",
+    "calories_kcal": 211.0,
+    "protein_g": 4.35,
+    "carbohydrate_g": 22.4,
+    "fat_g": 3.14,
+    "sodium_mg": 112.0,
+    "ingredients": [
+      {
+        "ingredient": "Potatoes",
+        "percentage": 72.07806609004214
+      },
+      {
+        "ingredient": "Mayonnaise",
+        "percentage": 7.7345309381237515
+      },
+      {
+        "ingredient": "Egg, whole",
+        "percentage": 6.16051846923437
+      },
+      {
+        "ingredient": "Celery",
+        "percentage": 5.544466622310933
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 5.544466622310933
+      },
+      {
+        "ingredient": "White vinegar",
+        "percentage": 1.353465907690791
+      },
+      {
+        "ingredient": "Canola oil",
+        "percentage": 1.2327197456937975
+      },
+      {
+        "ingredient": "Lemon juice",
+        "percentage": 0.16017348020009362
+      },
+      {
+        "ingredient": "Dill",
+        "percentage": 0.13245114708853895
+      },
+      {
+        "ingredient": "Garlic powder",
+        "percentage": 0.034498903427712474
+      },
+      {
+        "ingredient": "Black pepper",
+        "percentage": 0.024642073876937478
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS010",
+    "recipe_name": "Pudding Rice",
+    "default_portion": "#8 Scoop",
+    "calories_kcal": 155.0,
+    "protein_g": 4.93,
+    "carbohydrate_g": 28.63,
+    "fat_g": 4.45,
+    "sodium_mg": 44.0,
+    "ingredients": [
+      {
+        "ingredient": "Milk, 2%",
+        "percentage": 66.17506316331992
+      },
+      {
+        "ingredient": "Parboiled rice",
+        "percentage": 20.077778851778145
+      },
+      {
+        "ingredient": "White sugar",
+        "percentage": 8.069011442943264
+      },
+      {
+        "ingredient": "Egg, whole",
+        "percentage": 5.610904779934141
+      },
+      {
+        "ingredient": "Vanilla extract",
+        "percentage": 0.06724176202452721
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS011",
+    "recipe_name": "Salad Carrot Dill",
+    "default_portion": "#8 Scoop",
+    "calories_kcal": 93.0,
+    "protein_g": 0.86,
+    "carbohydrate_g": 4.83,
+    "fat_g": 1.35,
+    "sodium_mg": 27.0,
+    "ingredients": [
+      {
+        "ingredient": "Carrots",
+        "percentage": 79.74816369359917
+      },
+      {
+        "ingredient": "Ranch dressing",
+        "percentage": 20.146904512067156
+      },
+      {
+        "ingredient": "Dill",
+        "percentage": 0.1049317943336831
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS012",
+    "recipe_name": "Sauce Mustard",
+    "default_portion": "1 Fl Oz Ladle",
+    "calories_kcal": 29.0,
+    "protein_g": 1.09,
+    "carbohydrate_g": 1.73,
+    "fat_g": 2.04,
+    "sodium_mg": 83.0,
+    "ingredients": [
+      {
+        "ingredient": "Milk, 2%",
+        "percentage": 62.70399578324244
+      },
+      {
+        "ingredient": "Dijon mustard",
+        "percentage": 16.053581202992277
+      },
+      {
+        "ingredient": "Half-and-half cream",
+        "percentage": 15.441171501746847
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 3.450611902879424
+      },
+      {
+        "ingredient": "Wheat flour",
+        "percentage": 1.917813773389827
+      },
+      {
+        "ingredient": "Salt",
+        "percentage": 0.36482724133503625
+      },
+      {
+        "ingredient": "Black pepper",
+        "percentage": 0.06799859441414777
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS013",
+    "recipe_name": "Soup Beef Barley",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 87.0,
+    "protein_g": 3.97,
+    "carbohydrate_g": 14.05,
+    "fat_g": 2.05,
+    "sodium_mg": 121.0,
+    "ingredients": [
+      {
+        "ingredient": "Beef broth",
+        "percentage": 76.47562662951913
+      },
+      {
+        "ingredient": "Pearl barley",
+        "percentage": 8.847641726984365
+      },
+      {
+        "ingredient": "Beef, diced",
+        "percentage": 4.706192407970407
+      },
+      {
+        "ingredient": "Celery",
+        "percentage": 4.533475146597894
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 2.6731172877271914
+      },
+      {
+        "ingredient": "Carrots",
+        "percentage": 2.6731172877271914
+      },
+      {
+        "ingredient": "Garlic powder",
+        "percentage": 0.03764953926376326
+      },
+      {
+        "ingredient": "White pepper",
+        "percentage": 0.027060606345829845
+      },
+      {
+        "ingredient": "Oregano, dried",
+        "percentage": 0.017883531150287547
+      },
+      {
+        "ingredient": "Basil, dried",
+        "percentage": 0.008235836713948213
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS014",
+    "recipe_name": "Soup Beef Noodle",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 85.0,
+    "protein_g": 5.03,
+    "carbohydrate_g": 9.58,
+    "fat_g": 3.2,
+    "sodium_mg": 138.0,
+    "ingredients": [
+      {
+        "ingredient": "Beef broth",
+        "percentage": 78.8032083202739
+      },
+      {
+        "ingredient": "Beef, diced",
+        "percentage": 8.340391193836034
+      },
+      {
+        "ingredient": "Peas and carrots",
+        "percentage": 5.463689110205657
+      },
+      {
+        "ingredient": "Egg noodles",
+        "percentage": 4.765937765008623
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 2.6267736106757966
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS015",
+    "recipe_name": "Soup Chicken Vegetable Barley",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 66.0,
+    "protein_g": 6.4,
+    "carbohydrate_g": 8.29,
+    "fat_g": 0.82,
+    "sodium_mg": 159.0,
+    "ingredients": [
+      {
+        "ingredient": "Chicken broth",
+        "percentage": 78.58431197971856
+      },
+      {
+        "ingredient": "Chicken, diced",
+        "percentage": 9.196036508264939
+      },
+      {
+        "ingredient": "Pearl barley",
+        "percentage": 4.16789454654135
+      },
+      {
+        "ingredient": "Carrots",
+        "percentage": 3.3440132757327046
+      },
+      {
+        "ingredient": "Celery",
+        "percentage": 3.1350124459994104
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 1.5675062229997052
+      },
+      {
+        "ingredient": "Bay leaf",
+        "percentage": 0.005225020743332351
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS016",
+    "recipe_name": "Soup Corn Chowder",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 143.0,
+    "protein_g": 4.14,
+    "carbohydrate_g": 22.55,
+    "fat_g": 4.99,
+    "sodium_mg": 121.0,
+    "ingredients": [
+      {
+        "ingredient": "Milk, 2%",
+        "percentage": 26.89107782044249
+      },
+      {
+        "ingredient": "Vegetable broth",
+        "percentage": 21.70528685945871
+      },
+      {
+        "ingredient": "Corn",
+        "percentage": 18.870259136670477
+      },
+      {
+        "ingredient": "Creamed corn",
+        "percentage": 10.490888648738379
+      },
+      {
+        "ingredient": "Potatoes",
+        "percentage": 10.454713170639279
+      },
+      {
+        "ingredient": "Wheat flour",
+        "percentage": 4.01113701162797
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 2.860123737209924
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 2.577502814560722
+      },
+      {
+        "ingredient": "Celery",
+        "percentage": 2.088048595879928
+      },
+      {
+        "ingredient": "Chives, dried",
+        "percentage": 0.03328143985117002
+      },
+      {
+        "ingredient": "White pepper",
+        "percentage": 0.017680764920934077
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS017",
+    "recipe_name": "Soup Country Vegetable",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 52.0,
+    "protein_g": 0.7,
+    "carbohydrate_g": 4.16,
+    "fat_g": 4.0,
+    "sodium_mg": 119.0,
+    "ingredients": [
+      {
+        "ingredient": "Vegetable broth",
+        "percentage": 68.2882414151925
+      },
+      {
+        "ingredient": "Tomatoes, diced",
+        "percentage": 9.95057232049948
+      },
+      {
+        "ingredient": "Carrots",
+        "percentage": 4.877731529656608
+      },
+      {
+        "ingredient": "Celery",
+        "percentage": 3.902185223725286
+      },
+      {
+        "ingredient": "Green beans",
+        "percentage": 3.902185223725286
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 2.5364203954214357
+      },
+      {
+        "ingredient": "Turnip",
+        "percentage": 2.438865764828304
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 2.316922476586889
+      },
+      {
+        "ingredient": "Corn",
+        "percentage": 1.2682101977107179
+      },
+      {
+        "ingredient": "Garlic",
+        "percentage": 0.27803069719042667
+      },
+      {
+        "ingredient": "Lemon juice",
+        "percentage": 0.15218522372528615
+      },
+      {
+        "ingredient": "Thyme, dried",
+        "percentage": 0.06015868886576483
+      },
+      {
+        "ingredient": "Black pepper",
+        "percentage": 0.022437565036420398
+      },
+      {
+        "ingredient": "Bay leaf",
+        "percentage": 0.00585327783558793
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS018",
+    "recipe_name": "Soup Cream Of Cauliflower",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 117.0,
+    "protein_g": 5.39,
+    "carbohydrate_g": 11.66,
+    "fat_g": 5.58,
+    "sodium_mg": 102.0,
+    "ingredients": [
+      {
+        "ingredient": "Milk, 2%",
+        "percentage": 61.3017201263328
+      },
+      {
+        "ingredient": "Vegetable broth",
+        "percentage": 16.51625178530359
+      },
+      {
+        "ingredient": "Cauliflower",
+        "percentage": 14.534301571067159
+      },
+      {
+        "ingredient": "Wheat flour",
+        "percentage": 2.695452291361546
+      },
+      {
+        "ingredient": "Celery",
+        "percentage": 1.9819502142364307
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 1.9613048995048015
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 0.9909751071182153
+      },
+      {
+        "ingredient": "White pepper",
+        "percentage": 0.018044005075444174
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS019",
+    "recipe_name": "Soup Cream Of Mushroom",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 115.0,
+    "protein_g": 2.2,
+    "carbohydrate_g": 7.22,
+    "fat_g": 5.29,
+    "sodium_mg": 93.0,
+    "ingredients": [
+      {
+        "ingredient": "Vegetable broth",
+        "percentage": 60.50807204375802
+      },
+      {
+        "ingredient": "Half-and-half cream",
+        "percentage": 20.239238238965953
+      },
+      {
+        "ingredient": "Mushrooms",
+        "percentage": 10.001628378997648
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 3.3386218574732363
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 3.170000097880705
+      },
+      {
+        "ingredient": "Wheat flour",
+        "percentage": 2.7015074518360196
+      },
+      {
+        "ingredient": "White pepper",
+        "percentage": 0.040931931088424536
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS020",
+    "recipe_name": "Soup Cream of Broccoli",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 73.0,
+    "protein_g": 2.75,
+    "carbohydrate_g": 7.05,
+    "fat_g": 4.1,
+    "sodium_mg": 63.0,
+    "ingredients": [
+      {
+        "ingredient": "Vegetable broth",
+        "percentage": 33.25297198437111
+      },
+      {
+        "ingredient": "Broccoli",
+        "percentage": 33.25297198437111
+      },
+      {
+        "ingredient": "Milk, 2%",
+        "percentage": 25.712860586914953
+      },
+      {
+        "ingredient": "Wheat flour",
+        "percentage": 4.389392301936986
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 3.3252971984371102
+      },
+      {
+        "ingredient": "Nutmeg",
+        "percentage": 0.03657826918280821
+      },
+      {
+        "ingredient": "Chili powder",
+        "percentage": 0.029927674785933996
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS021",
+    "recipe_name": "Soup Cream of Potato",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 71.0,
+    "protein_g": 2.19,
+    "carbohydrate_g": 10.68,
+    "fat_g": 2.53,
+    "sodium_mg": 69.0,
+    "ingredients": [
+      {
+        "ingredient": "Vegetable broth",
+        "percentage": 55.520635389255524
+      },
+      {
+        "ingredient": "Milk, 2%",
+        "percentage": 22.360068393094707
+      },
+      {
+        "ingredient": "Potatoes",
+        "percentage": 17.350198559142353
+      },
+      {
+        "ingredient": "Celery",
+        "percentage": 2.168774819892794
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 1.0318163083121956
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 0.9750811590238002
+      },
+      {
+        "ingredient": "Wheat flour",
+        "percentage": 0.5734726429356203
+      },
+      {
+        "ingredient": "White pepper",
+        "percentage": 0.019952728343013704
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS022",
+    "recipe_name": "Soup Navy Bean",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 207.0,
+    "protein_g": 12.63,
+    "carbohydrate_g": 36.1,
+    "fat_g": 2.13,
+    "sodium_mg": 59.0,
+    "ingredients": [
+      {
+        "ingredient": "Vegetable broth",
+        "percentage": 67.52017165128082
+      },
+      {
+        "ingredient": "Navy beans",
+        "percentage": 20.63116356011358
+      },
+      {
+        "ingredient": "Celery",
+        "percentage": 3.7511206472933787
+      },
+      {
+        "ingredient": "Carrots",
+        "percentage": 3.7511206472933787
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 3.7511206472933787
+      },
+      {
+        "ingredient": "Canola oil",
+        "percentage": 0.4486340294162881
+      },
+      {
+        "ingredient": "Garlic",
+        "percentage": 0.1069069384478613
+      },
+      {
+        "ingredient": "Thyme, dried",
+        "percentage": 0.022506723883760273
+      },
+      {
+        "ingredient": "Black pepper",
+        "percentage": 0.017255154977549543
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS023",
+    "recipe_name": "Soup Potato Leek",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 69.0,
+    "protein_g": 1.16,
+    "carbohydrate_g": 12.97,
+    "fat_g": 1.94,
+    "sodium_mg": 106.0,
+    "ingredients": [
+      {
+        "ingredient": "Vegetable broth",
+        "percentage": 62.27615463303435
+      },
+      {
+        "ingredient": "Potatoes",
+        "percentage": 20.758718211011452
+      },
+      {
+        "ingredient": "Leek",
+        "percentage": 10.379359105505726
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 5.189679552752863
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 1.2325488937788047
+      },
+      {
+        "ingredient": "Garlic powder",
+        "percentage": 0.09964184741285495
+      },
+      {
+        "ingredient": "Salt",
+        "percentage": 0.040025230561288025
+      },
+      {
+        "ingredient": "White pepper",
+        "percentage": 0.02387252594266317
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS024",
+    "recipe_name": "Soup Split Pea & Ham",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 165.0,
+    "protein_g": 10.97,
+    "carbohydrate_g": 25.57,
+    "fat_g": 2.6,
+    "sodium_mg": 198.0,
+    "ingredients": [
+      {
+        "ingredient": "Water",
+        "percentage": 55.13762882323788
+      },
+      {
+        "ingredient": "Split peas",
+        "percentage": 16.19844569851918
+      },
+      {
+        "ingredient": "Vegetable broth",
+        "percentage": 14.13785354441997
+      },
+      {
+        "ingredient": "Ham, smoked",
+        "percentage": 6.713423375908772
+      },
+      {
+        "ingredient": "Carrots",
+        "percentage": 5.301695079157489
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 1.1062870398508626
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 0.8898011574519318
+      },
+      {
+        "ingredient": "Wheat flour",
+        "percentage": 0.49454211698381045
+      },
+      {
+        "ingredient": "Black pepper",
+        "percentage": 0.020323164470103707
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS025",
+    "recipe_name": "Soup Squash Butternut",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 69.0,
+    "protein_g": 1.11,
+    "carbohydrate_g": 9.28,
+    "fat_g": 3.71,
+    "sodium_mg": 68.0,
+    "ingredients": [
+      {
+        "ingredient": "Vegetable broth",
+        "percentage": 68.75416048613641
+      },
+      {
+        "ingredient": "Butternut squash",
+        "percentage": 26.87662637185333
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 2.2266972430169183
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 2.126343045333531
+      },
+      {
+        "ingredient": "Black pepper",
+        "percentage": 0.01617285365980709
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS026",
+    "recipe_name": "Soup Tomato",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 82.0,
+    "protein_g": 1.85,
+    "carbohydrate_g": 9.27,
+    "fat_g": 4.33,
+    "sodium_mg": 76.0,
+    "ingredients": [
+      {
+        "ingredient": "Vegetable broth",
+        "percentage": 59.29545144591959
+      },
+      {
+        "ingredient": "Milk, 2%",
+        "percentage": 14.322731588974097
+      },
+      {
+        "ingredient": "Tomatoes, diced in juice",
+        "percentage": 10.307243617056422
+      },
+      {
+        "ingredient": "Tomato paste",
+        "percentage": 9.228066400740687
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 3.0177149396584073
+      },
+      {
+        "ingredient": "Wheat flour",
+        "percentage": 2.9351248465730198
+      },
+      {
+        "ingredient": "White sugar",
+        "percentage": 0.8936671610777882
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS027",
+    "recipe_name": "Soup Vegetable Barley",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 53.0,
+    "protein_g": 1.63,
+    "carbohydrate_g": 9.24,
+    "fat_g": 1.35,
+    "sodium_mg": 103.0,
+    "ingredients": [
+      {
+        "ingredient": "Vegetable broth",
+        "percentage": 76.22706518176344
+      },
+      {
+        "ingredient": "Mushrooms",
+        "percentage": 7.622706518176344
+      },
+      {
+        "ingredient": "Celery",
+        "percentage": 3.9638073894516985
+      },
+      {
+        "ingredient": "Carrots",
+        "percentage": 3.9638073894516985
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 3.811353259088172
+      },
+      {
+        "ingredient": "Pearl barley",
+        "percentage": 3.811353259088172
+      },
+      {
+        "ingredient": "Canola oil",
+        "percentage": 0.5273693277535122
+      },
+      {
+        "ingredient": "Salt",
+        "percentage": 0.06114172898229245
+      },
+      {
+        "ingredient": "Black pepper",
+        "percentage": 0.011395946244673634
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS028",
+    "recipe_name": "Soup Vegetable Beef",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 61.0,
+    "protein_g": 4.35,
+    "carbohydrate_g": 4.17,
+    "fat_g": 3.16,
+    "sodium_mg": 146.0,
+    "ingredients": [
+      {
+        "ingredient": "Beef broth",
+        "percentage": 76.10250048487529
+      },
+      {
+        "ingredient": "Beef, diced",
+        "percentage": 10.794357405567949
+      },
+      {
+        "ingredient": "Black beans",
+        "percentage": 3.567768297585284
+      },
+      {
+        "ingredient": "Carrots",
+        "percentage": 2.3785121983901893
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 2.3785121983901893
+      },
+      {
+        "ingredient": "Celery",
+        "percentage": 2.3785121983901893
+      },
+      {
+        "ingredient": "Potatoes",
+        "percentage": 2.3785121983901893
+      },
+      {
+        "ingredient": "Black pepper",
+        "percentage": 0.021325018410722853
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS029",
+    "recipe_name": "Soup Vegetarian Lentil",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 195.0,
+    "protein_g": 12.18,
+    "carbohydrate_g": 33.24,
+    "fat_g": 2.24,
+    "sodium_mg": 58.0,
+    "ingredients": [
+      {
+        "ingredient": "Vegetable broth",
+        "percentage": 75.72018307457597
+      },
+      {
+        "ingredient": "Green lentils, dry",
+        "percentage": 12.620030512429329
+      },
+      {
+        "ingredient": "Carrots",
+        "percentage": 4.192654581351522
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 3.470508390918065
+      },
+      {
+        "ingredient": "Celery",
+        "percentage": 3.2702705734541864
+      },
+      {
+        "ingredient": "Canola oil",
+        "percentage": 0.7224266355559545
+      },
+      {
+        "ingredient": "Clove",
+        "percentage": 0.002243560979987436
+      },
+      {
+        "ingredient": "Bay leaf",
+        "percentage": 0.0016826707349905771
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS030",
+    "recipe_name": "Stewed Blueberries",
+    "default_portion": "#8 Scoop",
+    "calories_kcal": 148.0,
+    "protein_g": 1.24,
+    "carbohydrate_g": 37.1,
+    "fat_g": 0.23,
+    "sodium_mg": 6.0,
+    "ingredients": [
+      {
+        "ingredient": "Blueberries",
+        "percentage": 91.5203358186189
+      },
+      {
+        "ingredient": "Brown sugar",
+        "percentage": 6.443031641630771
+      },
+      {
+        "ingredient": "Water",
+        "percentage": 1.1440041977327362
+      },
+      {
+        "ingredient": "Cornstarch",
+        "percentage": 0.6186774701338638
+      },
+      {
+        "ingredient": "Cinnamon",
+        "percentage": 0.27395087188373257
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS031",
+    "recipe_name": "Toast French",
+    "default_portion": "2 Pieces",
+    "calories_kcal": 259.0,
+    "protein_g": 12.09,
+    "carbohydrate_g": 40.81,
+    "fat_g": 4.91,
+    "sodium_mg": 517.0,
+    "ingredients": [
+      {
+        "ingredient": "Whole-wheat bread",
+        "percentage": 54.940163548727604
+      },
+      {
+        "ingredient": "Milk, 2%",
+        "percentage": 31.468504788187868
+      },
+      {
+        "ingredient": "Egg, whole",
+        "percentage": 11.75490582594651
+      },
+      {
+        "ingredient": "White sugar",
+        "percentage": 1.5676599136048974
+      },
+      {
+        "ingredient": "Vanilla extract",
+        "percentage": 0.2687659235331273
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS032",
+    "recipe_name": "Vegetarian Macaroni & Cheese",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 384.0,
+    "protein_g": 19.21,
+    "carbohydrate_g": 25.91,
+    "fat_g": 22.58,
+    "sodium_mg": 493.0,
+    "ingredients": [
+      {
+        "ingredient": "Water",
+        "percentage": 73.16776078798354
+      },
+      {
+        "ingredient": "Cheddar cheese",
+        "percentage": 15.963875081014589
+      },
+      {
+        "ingredient": "Macaroni pasta",
+        "percentage": 7.981937540507294
+      },
+      {
+        "ingredient": "Skim milk powder",
+        "percentage": 1.595057185178041
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 1.2796043619625757
+      },
+      {
+        "ingredient": "Mustard powder",
+        "percentage": 0.006984195347943883
+      },
+      {
+        "ingredient": "Black pepper",
+        "percentage": 0.004780848006033015
+      }
+    ]
+  },
+  {
+    "recipe_id": "GS033",
+    "recipe_name": "Vegetarian Vegetable Stew",
+    "default_portion": "6 Fl Oz Ladle",
+    "calories_kcal": 142.0,
+    "protein_g": 7.12,
+    "carbohydrate_g": 16.72,
+    "fat_g": 5.97,
+    "sodium_mg": 193.0,
+    "ingredients": [
+      {
+        "ingredient": "Vegetable broth",
+        "percentage": 35.28476458997451
+      },
+      {
+        "ingredient": "Tofu, firm",
+        "percentage": 22.052977868734065
+      },
+      {
+        "ingredient": "Potatoes",
+        "percentage": 13.231786721240438
+      },
+      {
+        "ingredient": "Carrots",
+        "percentage": 8.821191147493627
+      },
+      {
+        "ingredient": "Green peas",
+        "percentage": 6.615893360620219
+      },
+      {
+        "ingredient": "Celery",
+        "percentage": 4.410595573746813
+      },
+      {
+        "ingredient": "Tomato paste",
+        "percentage": 2.5625560283468984
+      },
+      {
+        "ingredient": "Wheat flour",
+        "percentage": 2.3287944629383173
+      },
+      {
+        "ingredient": "Onion",
+        "percentage": 2.2052977868734067
+      },
+      {
+        "ingredient": "Margarine, canola",
+        "percentage": 1.9902812526532494
+      },
+      {
+        "ingredient": "Worcestershire sauce",
+        "percentage": 0.423417175079694
+      },
+      {
+        "ingredient": "Salt",
+        "percentage": 0.06803343672504458
+      },
+      {
+        "ingredient": "Thyme, fresh",
+        "percentage": 0.004410595573746814
+      }
+    ]
+  }
+]
