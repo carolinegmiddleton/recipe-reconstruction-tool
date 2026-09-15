@@ -179,11 +179,21 @@ def parse_bulk_csv(text: str) -> list[BulkRecipe]:
     return [unique[k] for k in order]
 
 
-def rows_to_csv(rows: list[dict]) -> str:
-    fieldnames = ["Recipe Number", "Short Name", "Ingredient", "Estimated % by weight"]
+RESULT_FIELDNAMES = ["Recipe Number", "Short Name", "Ingredient", "Estimated % by weight"]
+ERROR_FIELDNAMES = ["Recipe Number", "Short Name", "Error"]
+
+
+def rows_to_csv(rows: list[dict], fieldnames: list[str] | None = None) -> str:
+    cols = fieldnames or RESULT_FIELDNAMES
     buf = io.StringIO()
-    writer = csv.DictWriter(buf, fieldnames=fieldnames, extrasaction="ignore")
+    writer = csv.DictWriter(buf, fieldnames=cols, extrasaction="ignore")
     writer.writeheader()
     for row in rows:
         writer.writerow(row)
     return buf.getvalue()
+
+
+def write_rows_csv(path, rows: list[dict], fieldnames: list[str] | None = None) -> None:
+    """Overwrite path with the full current results (safe incremental checkpoint)."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(rows_to_csv(rows, fieldnames=fieldnames), encoding="utf-8")

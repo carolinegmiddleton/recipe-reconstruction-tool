@@ -1,8 +1,18 @@
+import base64
 import json
-import streamlit as st
+from datetime import datetime, timezone
+from pathlib import Path
 
-from bulk_csv import parse_bulk_csv, rows_to_csv
-from recipe_agent import RecipeInput, RecipeReconstructionAgent
+import streamlit as st
+import streamlit.components.v1 as components
+
+from bulk_csv import (
+    ERROR_FIELDNAMES,
+    parse_bulk_csv,
+    rows_to_csv,
+    write_rows_csv,
+)
+from recipe_agent import OUTPUTS_DIR, RecipeInput, RecipeReconstructionAgent
 
 st.set_page_config(
     page_title="Recipe Reconstruction Tool",
@@ -13,6 +23,30 @@ st.set_page_config(
 st.title("Recipe Reconstruction Tool")
 
 single_tab, bulk_tab = st.tabs(["Single recipe", "Bulk CSV"])
+
+
+def trigger_browser_download(data: str, file_name: str) -> None:
+    """Prompt the browser to download a CSV once (may be blocked by some browsers)."""
+    b64 = base64.b64encode(data.encode("utf-8")).decode("ascii")
+    safe_name = file_name.replace("\\", "_").replace('"', "_").replace("'", "_")
+    components.html(
+        f"""
+        <html><body>
+        <script>
+        (function() {{
+          const a = document.createElement('a');
+          a.href = 'data:text/csv;charset=utf-8;base64,{b64}';
+          a.download = '{safe_name}';
+          a.style.display = 'none';
+          document.body.appendChild(a);
+          a.click();
+          a.remove();
+        }})();
+        </script>
+        </body></html>
+        """,
+        height=0,
+    )
 
 
 def render_recipe_table(recipe_name: str, result: dict) -> None:
@@ -233,12 +267,24 @@ with bulk_tab:
             n_replicates = 3 if higher_accuracy else 1
             output_rows = []
             errors = []
+            timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+            results_path = OUTPUTS_DIR / f"bulk_proportions_{timestamp}.csv"
+            errors_path = OUTPUTS_DIR / f"bulk_errors_{timestamp}.csv"
             progress = st.progress(0.0, text="Starting bulk estimate...")
             try:
                 agent = RecipeReconstructionAgent()
             except Exception as exc:
                 st.error(f"Could not start the recipe estimator: {exc}")
                 st.stop()
+
+            # Create the checkpoint file immediately so a crash still leaves a path.
+            write_rows_csv(results_path, output_rows)
+            st.session_state["bulk_results_path"] = str(results_path)
+            st.session_state["bulk_errors_path"] = None
+            st.info(
+                f"Checkpointing progress as `{results_path.name}`. "
+                "When finished, your browser will download the CSV automatically."
+            )
 
             for i, recipe in enumerate(valid):
                 progress.progress(
@@ -279,26 +325,75 @@ with bulk_tab:
                             "Error": str(exc),
                         }
                     )
+                    write_rows_csv(errors_path, errors, fieldnames=ERROR_FIELDNAMES)
+                    st.session_state["bulk_errors_path"] = str(errors_path)
+
+                write_rows_csv(results_path, output_rows)
 
             progress.progress(1.0, text="Finished.")
             st.session_state["bulk_output_rows"] = output_rows
             st.session_state["bulk_errors"] = errors
+            st.session_state["bulk_results_path"] = str(results_path)
+            st.session_state["bulk_trigger_download"] = bool(output_rows)
+            if errors:
+                write_rows_csv(errors_path, errors, fieldnames=ERROR_FIELDNAMES)
+                st.session_state["bulk_errors_path"] = str(errors_path)
 
     if st.session_state.get("bulk_output_rows") is not None:
         output_rows = st.session_state["bulk_output_rows"]
         errors = st.session_state.get("bulk_errors") or []
+        results_path = st.session_state.get("bulk_results_path")
+        errors_path = st.session_state.get("bulk_errors_path")
+        download_name = Path(results_path).name if results_path else "recipe_proportions.csv"
+        csv_data = rows_to_csv(output_rows) if output_rows else ""
+
         if output_rows:
             st.subheader("Estimated proportions")
+            if st.session_state.pop("bulk_trigger_download", False):
+                trigger_browser_download(csv_data, download_name)
+                st.success(
+                    f"Estimated {len({r['Short Name'] for r in output_rows})} recipes. "
+                    "Your CSV download should start automatically."
+                )
+            else:
+                st.success(f"Estimated {len({r['Short Name'] for r in output_rows})} recipes.")
+            st.caption("If the file did not appear in your Downloads folder, use the button below.")
             st.dataframe(output_rows, hide_index=True, use_container_width=True)
             st.download_button(
                 "Download results CSV",
-                data=rows_to_csv(output_rows),
-                file_name="recipe_proportions.csv",
+                data=csv_data,
+                file_name=download_name,
                 mime="text/csv",
                 use_container_width=True,
             )
         if errors:
             st.error(f"{len(errors)} recipes failed.")
+            if errors_path:
+                st.caption(f"Error log also saved as `{Path(errors_path).name}`.")
             st.dataframe(errors, hide_index=True, use_container_width=True)
-        elif output_rows:
-            st.success(f"Estimated {len({r['Short Name'] for r in output_rows})} recipes.")
+
+    # Survive page refreshes: list recent auto-saved bulk CSVs (also works when deployed).
+    OUTPUTS_DIR.mkdir(exist_ok=True)
+    saved_bulk = sorted(OUTPUTS_DIR.glob("bulk_proportions_*.csv"), reverse=True)
+    if saved_bulk:
+        with st.expander(
+            "Previous bulk result files",
+            expanded=st.session_state.get("bulk_output_rows") is None,
+        ):
+            st.caption(
+                "Progress is checkpointed after each recipe. "
+                "Use Download if your browser blocked the automatic save."
+            )
+            for path in saved_bulk[:10]:
+                col_name, col_btn = st.columns([3, 1])
+                with col_name:
+                    st.write(f"`{path.name}` ({path.stat().st_size:,} bytes)")
+                with col_btn:
+                    st.download_button(
+                        "Download",
+                        data=path.read_text(encoding="utf-8"),
+                        file_name=path.name,
+                        mime="text/csv",
+                        key=f"download_{path.name}",
+                        use_container_width=True,
+                    )
