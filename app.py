@@ -22,7 +22,7 @@ st.set_page_config(
 
 st.title("Recipe Reconstruction Tool")
 
-single_tab, bulk_tab = st.tabs(["Single recipe", "Bulk Recipes"])
+single_tab, bulk_tab = st.tabs(["Single Recipe", "Bulk Recipes"])
 
 
 def trigger_browser_download(data: str, file_name: str) -> None:
