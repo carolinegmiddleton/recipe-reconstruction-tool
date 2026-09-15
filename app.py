@@ -22,7 +22,7 @@ st.set_page_config(
 
 st.title("Recipe Reconstruction Tool")
 
-single_tab, bulk_tab = st.tabs(["Single recipe", "Bulk CSV"])
+single_tab, bulk_tab = st.tabs(["Single recipe", "Bulk Recipes"])
 
 
 def trigger_browser_download(data: str, file_name: str) -> None:
@@ -133,7 +133,7 @@ with single_tab:
 
     recipe_name = st.text_input(
         "Recipe name",
-        placeholder="Beef Stroganoff",
+        placeholder="E.g. Chicken Pot Pie",
         label_visibility="collapsed",
     )
 
